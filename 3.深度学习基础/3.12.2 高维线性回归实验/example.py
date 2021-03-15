@@ -39,7 +39,7 @@ def l2_penalty(w):
 
 
 # 3.12.3.3定义训练和测试
-batch_size, num_epochs, lr = 1, 100, 0.03
+batch_size, num_epochs, lr = 1, 100, 0.003
 net, loss = d2l.linreg, d2l.squared_loss
 
 dataset = Data.TensorDataset(train_features, train_labels)
@@ -68,6 +68,32 @@ def fit_and_plot(lambda_f):
     print('L2 norm of w:', w.norm().item())  # norm是指定范数的函数
 
 
+# 3.12.4 简洁实现
+def fit_and_plot_pytorch(wd):
+    # 对权重参数衰减。权重名称一般以weight结尾
+    net_f = nn.Linear(num_epochs, 1)
+    nn.init.normal_(net_f.weight, mean=0, std=1)
+    nn.init.normal_(net_f.bias, mean=0, std=1)
+    optimizer_w = torch.optim.SGD(params=[net_f.weight], lr=lr, weight_decay=wd)
+    optimizer_b = torch.optim.SGD(params=[net_f.bias], lr=lr)  # 不对偏差参数衰减
+
+    train_ls, test_ls = [], []
+    for _ in range(num_epochs):
+        for X, y in train_iter:
+            l = loss(net_f(X), y).mean()
+            optimizer_w.zero_grad()
+            optimizer_b.zero_grad()
+
+            l.backward()
+
+            # 对两个optimizer实力分别调用step函数，从而分别更新权重和偏差
+            optimizer_w.step()
+            optimizer_b.step()
+        train_ls.append(loss(net_f(train_features), train_labels).mean().item())
+        test_ls.append(loss(net_f(test_features), test_labels).mean().item())
+
+
 if __name__ == "__main__":
     fit_and_plot(lambda_f=0)
+    fit_and_plot(lambda_f=3)
     pass

@@ -6,14 +6,9 @@
 @contact: 1027380683@qq.com
 @site: https://github.com/kaitokuroba7
 @software: PyCharm
-@file: example1.py
-@time: 2021/3/1 17:08
+@file: example_simple.py
+@time: 2021/3/3 20:41
 """
-import torch
-
-X = torch.tensor([[1, 2, 3], [4, 5, 6]])
-print(X.sum(dim=0, keepdim=True))
-print(X.sum(dim=1, keepdim=True))
 
 if __name__ == "__main__":
     pass
