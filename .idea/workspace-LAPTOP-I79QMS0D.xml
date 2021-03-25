@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="605f6e9d-a973-4622-b10c-a36218b64c9b" name="Default Changelist" comment="init()">
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.3 多输入通道和多输出通道/Func_used.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.4 池化层/Func_used.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.4 池化层/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.5 卷积神经网络/Func_used.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.5 卷积神经网络/LeNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.6 深度卷积神经网络/AlexNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.6 深度卷积神经网络/Func_used.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.7 使用重复结构的网络/VGG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.7 使用重复结构的网络/VGG_Func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.8 网络中的网络/NiN_Func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. 卷积神经网络/5.8 网络中的网络/NiN_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/深度学习实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/深度学习实战.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="f734b517-da7e-49ed-8d39-92167882de66" />
+  <component name="ProjectId" id="1p99j9yCWlQ8gH4cjQZPajJKIuj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ZjuCloud\OneDrive - zju.edu.cn\PYTHON\pytorch\深度学习实战\3.深度学习基础\Kaggle实战" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ZjuCloud\OneDrive - zju.edu.cn\PYTHON\pytorch\深度学习实战\3.深度学习基础" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.NiN_main">
+    <configuration name="AlexNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5. 卷积神经网络/5.6 深度卷积神经网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. 卷积神经网络/5.6 深度卷积神经网络/AlexNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Func_used" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5. 卷积神经网络/5.6 深度卷积神经网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. 卷积神经网络/5.6 深度卷积神经网络/Func_used.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NiN_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5. 卷积神经网络/5.8 网络中的网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. 卷积神经网络/5.8 网络中的网络/NiN_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VGG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5. 卷积神经网络/5.7 使用重复结构的网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. 卷积神经网络/5.7 使用重复结构的网络/VGG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VGG_Func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5. 卷积神经网络/5.7 使用重复结构的网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. 卷积神经网络/5.7 使用重复结构的网络/VGG_Func.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="深度学习实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.AlexNet" />
+      <item itemvalue="Python.Func_used" />
+      <item itemvalue="Python.VGG" />
+      <item itemvalue="Python.VGG_Func" />
+      <item itemvalue="Python.NiN_main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.NiN_main" />
+        <item itemvalue="Python.VGG" />
+        <item itemvalue="Python.VGG_Func" />
+        <item itemvalue="Python.AlexNet" />
+        <item itemvalue="Python.Func_used" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="605f6e9d-a973-4622-b10c-a36218b64c9b" name="Default Changelist" comment="" />
+      <created>1614584571548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614584571548</updated>
+      <workItem from="1614584572565" duration="9235000" />
+      <workItem from="1614648256658" duration="11755000" />
+      <workItem from="1614669663284" duration="671000" />
+      <workItem from="1614753556244" duration="6244000" />
+      <workItem from="1614774546060" duration="2297000" />
+      <workItem from="1614932457022" duration="1271000" />
+      <workItem from="1615011926020" duration="9000000" />
+      <workItem from="1615184111278" duration="2631000" />
+      <workItem from="1615193090783" duration="7910000" />
+      <workItem from="1615277528520" duration="32000" />
+      <workItem from="1615288069019" duration="5650000" />
+      <workItem from="1615465267237" duration="281000" />
+      <workItem from="1615512474985" duration="976000" />
+      <workItem from="1615531269169" duration="54000" />
+      <workItem from="1615531325742" duration="107000" />
+      <workItem from="1615618947742" duration="164000" />
+      <workItem from="1615619125588" duration="271000" />
+      <workItem from="1615619407475" duration="11703000" />
+      <workItem from="1615779306719" duration="1586000" />
+      <workItem from="1615780916334" duration="267000" />
+      <workItem from="1615781342114" duration="16315000" />
+      <workItem from="1615815463797" duration="151000" />
+      <workItem from="1615815781269" duration="1244000" />
+      <workItem from="1615820917477" duration="1834000" />
+      <workItem from="1615870593570" duration="13462000" />
+    </task>
+    <task id="LOCAL-00001" summary="init()">
+      <created>1614774593920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614774593920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init()">
+      <created>1615781376452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615781376452</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init()" />
+    <option name="LAST_COMMIT_MESSAGE" value="init()" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$example__1_.coverage" NAME="example (1) Coverage Results" MODIFIED="1615793701007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. 卷积神经网络/5.4 池化层" />
+    <SUITE FILE_PATH="coverage/$soft_max_from_zero.coverage" NAME="soft_max_from_zero Coverage Results" MODIFIED="1614650646865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.深度学习基础/3.6 softmax回归从零开始实现" />
+    <SUITE FILE_PATH="coverage/$LeNet.coverage" NAME="LeNet Coverage Results" MODIFIED="1615812958110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. 卷积神经网络/5.5 卷积神经网络" />
+    <SUITE FILE_PATH="coverage/$example.coverage" NAME="example Coverage Results" MODIFIED="1615628211546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. 卷积神经网络/5.1 二维卷积层" />
+    <SUITE FILE_PATH="coverage/$dropout.coverage" NAME="dropout Coverage Results" MODIFIED="1615017184159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.深度学习基础/3.13 丢弃法" />
+    <SUITE FILE_PATH="coverage/$softmax.coverage" NAME="softmax Coverage Results" MODIFIED="1614585220518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.深度学习基础/3.4 softmax回归" />
+    <SUITE FILE_PATH="coverage/$padding.coverage" NAME="padding Coverage Results" MODIFIED="1615640917900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. 卷积神经网络/5.2 填充和步幅" />
+  </component>
+</project>
