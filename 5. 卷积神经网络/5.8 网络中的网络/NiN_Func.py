@@ -30,8 +30,5 @@ def nin_block(in_channels, out_channels, kernel_size, stride, padding):
     return blk
 
 
-
-
-
 if __name__ == "__main__":
     pass
