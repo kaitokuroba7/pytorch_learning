@@ -32,8 +32,7 @@ def get_params():
     def _three():
         return (_one((num_inputs, num_hiddens)),
                 _one((num_hiddens, num_hiddens)),
-                torch.nn.Parameter(torch.zeros(num_hiddens, device=device, dtype=torch.float32), requires_grad=True)
-                )
+                torch.nn.Parameter(torch.zeros(num_hiddens, device=device, dtype=torch.float32), requires_grad=True))
 
     W_xz, W_hz, b_z = _three()  # 更新门参数
     W_xr, W_hr, b_r = _three()  # 重置门参数
