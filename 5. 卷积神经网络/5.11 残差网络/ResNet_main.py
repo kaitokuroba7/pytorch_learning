@@ -26,6 +26,7 @@ print(blk(X).shape)
 blk = Func.Residual(3, 6, use_1x1conv=True)  # 此时通道数量改变，需要使用1X1的卷积层
 print(blk(X).shape)
 
+
 # ResNet
 # 5.11.2 ResNet模型
 net = nn.Sequential(
