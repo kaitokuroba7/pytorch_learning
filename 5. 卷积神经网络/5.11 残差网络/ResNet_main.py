@@ -26,7 +26,6 @@ print(blk(X).shape)
 blk = Func.Residual(3, 6, use_1x1conv=True)  # 此时通道数量改变，需要使用1X1的卷积层
 print(blk(X).shape)
 
-
 # ResNet
 # 5.11.2 ResNet模型
 net = nn.Sequential(
@@ -44,8 +43,7 @@ net.add_module("resnet_block4", Func.resnet_block(256, 512, 2))
 net.add_module("global_avg_pool", d2l.GlobalAvgPool2d())  # GlobalAvgPool2d的输出: (Batch, 512, 1, 1)
 net.add_module("fc", nn.Sequential(d2l.FlattenLayer(), nn.Linear(512, 10)))  # 四维到二维
 
-
-X = torch.rand((1, 1, 224, 224)) # batch_size, in_channel, n_H, n_w
+X = torch.rand((1, 1, 224, 224))  # batch_size, in_channel, n_H, n_w
 for name, layer in net.named_children():
     X = layer(X)
     print(name, ' output shape: \t', X.shape)
