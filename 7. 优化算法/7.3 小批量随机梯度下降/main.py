@@ -30,5 +30,8 @@ Func.train_sgd(lr=0.005, batch_size=1, features=features, labels=labels, num_epo
 
 Func.train_sgd(lr=0.05, batch_size=10, features=features, labels=labels, num_epoch=2)
 
+Func.train_pytorch_ch7(optim.SGD, {"lr": 0.05}, features, labels, 10)
+
+
 if __name__ == "__main__":
     pass
