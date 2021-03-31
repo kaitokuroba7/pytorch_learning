@@ -19,8 +19,16 @@ import Function.utils as d2l
 import BGD_Func as Func
 
 features, labels = Func.get_data_ch7()
+
+
 print(features.shape)
 print(labels.shape)
+
+Func.train_sgd(lr=1, batch_size=1500, features=features, labels=labels, num_epoch=6)
+
+Func.train_sgd(lr=0.005, batch_size=1, features=features, labels=labels, num_epoch=2)
+
+Func.train_sgd(lr=0.05, batch_size=10, features=features, labels=labels, num_epoch=2)
 
 if __name__ == "__main__":
     pass

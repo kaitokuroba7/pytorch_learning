@@ -26,11 +26,12 @@ Y = net(X).sum()
 print("-------------分割线------------------")
 print(type(net.named_parameters()))
 for name, param in net.named_parameters():
-    print(name, param.size())
+    print(name, param)
 
 print("-------------分割线------------------")
 for name, param in net[0].named_parameters():
     print(name, param.size())
+    print(name, param)
 
 print("-------------分割线------------------")
 
@@ -72,7 +73,7 @@ for name, param in net.named_parameters():
 
 # 4.2.3 自定义初始化方法
 def normal_(tensor, mean=0, std=0):
-    with torch.no_grad():
+    with torch.no_grad():  # 这是初始化代码的过程，所以不想被track
         return tensor.normal_(mean, std)
 
 
@@ -88,7 +89,6 @@ for name, param in net.named_parameters():
         init_weight_(param)
         print(name, param.data)
 
-
 # 4.2.4 共享模型参数
 linear = nn.Linear(1, 1, bias=False)
 net = nn.Sequential(linear, linear)
@@ -97,10 +97,8 @@ for name, param in net.named_parameters():
     init.constant_(param, val=3)
     print(name, param.data)
 
-
 print(id(net[0]) == id(net[1]))
 print(id(net[0].weight) == id(net[1].weight))
-
 
 x = torch.ones(1, 1)
 y = net(x).sum()
